@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+
+    .header-container {
+        display: flex;
+        gap: 20px;
+        color: white;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+        }
+    }
+}

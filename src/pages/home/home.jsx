@@ -1,5 +1,4 @@
 import React from "react";
-import AssetImage from "../../assets/chart.jpg";
 import "./home.scss";
 
 const Home = () => {
@@ -36,12 +35,31 @@ const Home = () => {
                 </div>
             </div>
             <div className="home--contact">
+                <div className="title">Contact Us</div>
                 <div className="home--contact__container">
-                    <div className="title">Contact Us</div>
-                    <p>
-                        An alternative asset manager focusing on equities
-                        worldwide
-                    </p>
+                    <div className="home--contact__container--left">
+                        <div className="title">Enquiry type</div>
+                        <select type="dropdown">
+                            <option value="general">General Enquiry</option>
+                            <option value="support">Asset Management</option>
+                            <option value="support">Wealth Management</option>
+                            <option value="support">
+                                Family Office Management
+                            </option>
+                            <option value="support">Securities services</option>
+                        </select>
+                        <div className="title">Name</div>
+                        <input type="text" />
+                        <div className="title">Email</div>
+                        <input type="text" />
+                    </div>
+                    <div className="home--contact__container--right">
+                        <div>Phone number</div>
+                        <input type="text" />
+                        <div>Your message</div>
+                        <input type="text" />
+                        <div>submit</div>
+                    </div>
                 </div>
             </div>
             <div className="home--about">

@@ -1,21 +1,45 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 30px;
+    padding: 10px 30px;
 
-    .header-container {
+    .header-logo {
+        height: 50px;
+    }
+
+    .MuiSvgIcon-root {
+        color: white;
+    }
+
+    &--language {
         display: flex;
-        gap: 20px;
         color: white;
         font-size: 18px;
         display: flex;
         align-items: center;
         justify-content: center;
+        cursor: pointer;
+        width: 55px;
+    }
+}
 
-        a {
-            color: white;
-            text-decoration: none;
-            font-size: 15px;
-        }
+.MuiList-root {
+    background-color: #0E2841;
+    padding: 0;
+
+    .MuiTypography-root {
+        display: flex;
+        align-items: start;
+        justify-content: flex-start;
+    }
+}
+
+.menu-appbar {
+    background-color: #0E2841;
+    padding: 5px 10px;
+
+    a {
+        color: white;
+        text-decoration: none;
     }
 }

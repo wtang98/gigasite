@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.scss";
+import Contact from "../contact/contact";
 
 const Home = () => {
     return (
@@ -34,43 +35,22 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="home--contact">
-                <div className="title">Contact Us</div>
-                <div className="home--contact__container">
-                    <div className="home--contact__container--left">
-                        <div className="title">Enquiry type</div>
-                        <select type="dropdown">
-                            <option value="general">General Enquiry</option>
-                            <option value="support">Asset Management</option>
-                            <option value="support">Wealth Management</option>
-                            <option value="support">
-                                Family Office Management
-                            </option>
-                            <option value="support">Securities services</option>
-                        </select>
-                        <div className="title">Name</div>
-                        <input type="text" />
-                        <div className="title">Email</div>
-                        <input type="text" />
-                    </div>
-                    <div className="home--contact__container--right">
-                        <div>Phone number</div>
-                        <input type="text" />
-                        <div>Your message</div>
-                        <input type="text" />
-                        <div>submit</div>
+            <div className="home--about">
+                <div className="home--about__container">
+                    <div className="img" />
+                    <div className="home--about__container--description">
+                        <p className="title">About Us</p>
+                        <p className="content">
+                            Independence, Integrity, Transparency and
+                            Reliability are the key guiding principles of the
+                            firm. We are not tied or obligated to any single
+                            institution or partner and thus can source and
+                            provide bespoke solutions for our clients.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div className="home--about">
-                <div className="title">About Us</div>
-                <p>
-                    We are a team of dedicated professionals committed to
-                    providing tailored financial solutions that align with our
-                    clients' goals. With a focus on integrity, innovation, and
-                    excellence.
-                </p>
-            </div>
+            <Contact />
         </div>
     );
 };

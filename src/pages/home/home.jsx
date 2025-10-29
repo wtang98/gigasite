@@ -1,6 +1,7 @@
 import React from "react";
-import "./home.scss";
 import Contact from "../contact/contact";
+import { Link } from "react-router";
+import "./home.scss";
 
 const Home = () => {
     return (
@@ -13,7 +14,7 @@ const Home = () => {
             </div>
             <div className="home--offerings">
                 <div className="home--offerings__container">
-                    <div className="home--offerings__container--img" />
+                    <div className="img" />
                     <div className="home--offerings__container--description">
                         <p className="title">Services</p>
                         <p className="content">
@@ -21,16 +22,22 @@ const Home = () => {
                             management services tailored to meet the unique
                             needs of our clients.
                         </p>
+                        <p className="link">
+                            <Link to={"services"}>Learn More</Link>
+                        </p>
                     </div>
                 </div>
                 <div className="home--offerings__container">
-                    <div className="home--offerings__container--img" />
+                    <div className="img2" />
                     <div className="home--offerings__container--description">
                         <p className="title">Securities</p>
                         <p className="content">
                             We provide a full range of securities trading and
                             brokerage services to individual, corporate, and
                             institutional clients.
+                        </p>
+                        <p className="link">
+                            <Link to={"securities"}>Learn More</Link>
                         </p>
                     </div>
                 </div>
@@ -46,6 +53,9 @@ const Home = () => {
                             firm. We are not tied or obligated to any single
                             institution or partner and thus can source and
                             provide bespoke solutions for our clients.
+                        </p>
+                        <p className="link">
+                            <Link to={"about"}>Learn More</Link>
                         </p>
                     </div>
                 </div>

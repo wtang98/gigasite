@@ -1,0 +1,137 @@
+.about {
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #4C4A47;
+
+
+    &__container {
+        width: calc(80% + 50px);
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+
+        &--landing {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 30px;
+
+
+            .img {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-blend-mode: multiply;
+                height: 200px;
+                width: 300px;
+                clip-path: polygon(100% 0, 90% 100%, 0 100%, 0 0);
+                background-image: url('../../assets/lowAngleBuildingShot.jpg');
+            }
+
+            .title {
+                font-size: xx-large;
+                color: #0E2841;
+                width: 150px;
+                padding: 10px;
+            }
+        }
+
+        &--description {
+            margin-bottom: 30px;
+        }
+
+        &--description2 {
+            gap: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-bottom: 30px;
+
+            .mission {
+                width: 33%;
+                min-width: 400px;
+
+                .title {
+                    color: #0E2841;
+                    font-size: x-large;
+                    font-weight: 500;
+                }
+            }
+
+            .vision {
+                width: 33%;
+                min-width: 400px;
+
+                .title {
+                    color: #0E2841;
+                    font-size: x-large;
+                    font-weight: 500;
+                }
+
+
+            }
+
+            .values {
+                min-width: 400px;
+
+                .title {
+                    color: #0E2841;
+                    font-size: x-large;
+                    font-weight: 500;
+                }
+            }
+
+            ul {
+                padding: 0;
+                list-style: none;
+                color: #4C4A47;
+            }
+
+            ul li:before {
+                margin-right: 5px;
+                content: '✓';
+            }
+        }
+
+        &--description3 {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 100%;
+
+            .lam {
+                width: 33%;
+                min-width: 400px;
+
+                .title {
+                    color: #0E2841;
+                    font-size: x-large;
+                    font-weight: 500;
+                }
+            }
+
+            .li {
+                width: 33%;
+                min-width: 400px;
+
+                .title {
+                    color: #0E2841;
+                    font-size: x-large;
+                    font-weight: 500;
+                }
+
+            }
+
+        }
+
+    }
+
+}

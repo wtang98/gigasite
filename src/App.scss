@@ -15,5 +15,9 @@ body {
 
     &__content {
         transform: translateY(75px);
+        min-height: calc(100% - 75px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 }

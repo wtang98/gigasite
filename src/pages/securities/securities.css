@@ -1,0 +1,42 @@
+.securities {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.securities__container {
+  width: calc(80% + 50px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.securities__container--landing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.securities__container--landing--title {
+  font-size: xx-large;
+  color: #0E2841;
+}
+.securities__container--landing--img {
+  width: 350px;
+  height: 220px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-blend-mode: multiply;
+  clip-path: polygon(100% 0, 90% 100%, 0 100%, 0 0);
+  background-image: url("../../assets/securites.jpg");
+}
+.securities__container--description {
+  padding: 20px 0;
+}
+.securities__container--description .title {
+  color: #0E2841;
+  font-size: larger;
+}
+.securities__container--description .content {
+  margin: 0;
+  font-size: 14px;
+  color: #4C4A47;
+}

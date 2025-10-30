@@ -13,8 +13,8 @@ import Footer from "./components/footer/footer.jsx";
 const App = () => {
     const [currentLanguage, setCurrentLanguage] = useState("Eng");
     return (
-        <BrowserRouter>
-            <div className="App">
+        <div className="App">
+            <BrowserRouter>
                 <div className="App__header">
                     <Header
                         currentLanguage={currentLanguage}
@@ -54,8 +54,8 @@ const App = () => {
                     </Routes>
                     <Footer />
                 </div>
-            </div>
-        </BrowserRouter>
+            </BrowserRouter>
+        </div>
     );
 };
 

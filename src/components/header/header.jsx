@@ -8,7 +8,20 @@ import Menu from "@mui/material/Menu";
 import "./header.scss";
 
 export const Header = ({ currentLanguage, setCurrentLanguage }) => {
-    const pages = ["About Us", "Securities", "Services", "Contact Us"];
+    const pages = [
+        {
+            Eng: "About Us",
+            简体: "关于我们",
+            繁體: "關於我們",
+        },
+        {
+            Eng: "Securities",
+            简体: "证券",
+            繁體: "證券",
+        },
+        { Eng: "Services", 简体: "服务", 繁體: "服務" },
+        { Eng: "Contact Us", 简体: "联系我们", 繁體: "聯絡我們" },
+    ];
     const languages = ["Eng", "简体", "繁體"];
     const [anchorElNav, setAnchorElNav] = useState(null);
 
@@ -56,15 +69,15 @@ export const Header = ({ currentLanguage, setCurrentLanguage }) => {
             >
                 {pages.map((page) => (
                     <Typography
-                        key={page}
+                        key={page?.[currentLanguage]}
                         className="menu-appbar"
                         sx={{ textAlign: "center" }}
                     >
                         <Link
-                            to={page.toLowerCase().split(" ")[0]}
+                            to={page["Eng"].toLowerCase().split(" ")[0]}
                             onClick={handleCloseNavMenu}
                         >
-                            {page}
+                            {page?.[currentLanguage]}
                         </Link>
                     </Typography>
                 ))}

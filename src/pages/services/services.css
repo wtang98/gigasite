@@ -122,3 +122,18 @@
   color: #4C4A47;
   font-size: 12px;
 }
+
+@media (max-width: 450px) {
+  .services__container--landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .services__container--landing__description .title {
+    transform: translate(0px, -30px);
+  }
+  .services__container--landing__description .text {
+    transform: translate(0px, -30px);
+  }
+}

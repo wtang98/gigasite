@@ -173,3 +173,14 @@
 .home--about__container--description .link a:hover {
   text-decoration: underline;
 }
+@media (max-width: 450px) {
+  .home .home--about__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .home .home--about__container--description {
+    transform: translate(0px, -30px);
+  }
+}

@@ -29,95 +29,97 @@ const About = ({ currentLanguage }) => {
                 </div>
 
                 <div className="about__container--description2">
-                    <div className="mission">
-                        <div className="title">
-                            {
+                    <div className="about__container--description2__container">
+                        <div className="mission">
+                            <div className="title">
                                 {
-                                    Eng: "Mission",
-                                    简体: "使命",
-                                    繁體: "使命",
-                                }[currentLanguage]
-                            }
-                        </div>
-                        <div className="description">
-                            {
-                                {
-                                    Eng: "Our purpose is to help more and more people experience financial well-being. Together with our clients, we’re contributing to a more equitable and resilient world today and for generations to come.",
-                                    简体: "我们的宗旨是助力越来越多的人实现财务健康。我们与客户携手同行，共同为当下乃至子孙后代构建一个更加公平、更具韧性的世界。",
-                                    繁體: "我們的宗旨是助力越來越多的人實現財務健康。我們與客戶攜手同行，共同為當下乃至子孫後代構建一個更加公平、更具韌性的世界。",
-                                }[currentLanguage]
-                            }
-                        </div>
-                    </div>
-                    <div className="vision">
-                        <div className="title">
-                            {
-                                {
-                                    Eng: "Vision",
-                                    简体: "愿景",
-                                    繁體: "願景",
-                                }[currentLanguage]
-                            }
-                        </div>
-                        <div className="description">
-                            {
-                                {
-                                    Eng: "Giga aims to be a world class investment partner of choice, delivering the best investment outcomes, advice and client service.",
-                                    简体: "极佳致力于成为世界级的首选投资合作伙伴，提供卓越的投资成果、专业建议与客户服务。",
-                                    繁體: "極佳致力於成為世界級的首選投資合作夥伴，提供卓越的投資成果、專業建議與客戶服務。",
-                                }[currentLanguage]
-                            }
-                        </div>
-                    </div>
-                    <div className="values">
-                        <div className="title">
-                            {
-                                {
-                                    Eng: "Values",
-                                    简体: "价值观",
-                                    繁體: "價值觀",
-                                }[currentLanguage]
-                            }
-                        </div>
-                        <div className="description">
-                            <ul>
-                                <li>
                                     {
-                                        {
-                                            Eng: "Independence",
-                                            简体: "独立",
-                                            繁體: "獨立",
-                                        }[currentLanguage]
-                                    }
-                                </li>
-                                <li>
+                                        Eng: "Mission",
+                                        简体: "使命",
+                                        繁體: "使命",
+                                    }[currentLanguage]
+                                }
+                            </div>
+                            <div className="description">
+                                {
                                     {
-                                        {
-                                            Eng: "Integrity",
-                                            简体: "诚信",
-                                            繁體: "誠信",
-                                        }[currentLanguage]
-                                    }
-                                </li>
-                                <li>
+                                        Eng: "Our purpose is to help more and more people experience financial well-being. Together with our clients, we’re contributing to a more equitable and resilient world today and for generations to come.",
+                                        简体: "我们的宗旨是助力越来越多的人实现财务健康。我们与客户携手同行，共同为当下乃至子孙后代构建一个更加公平、更具韧性的世界。",
+                                        繁體: "我們的宗旨是助力越來越多的人實現財務健康。我們與客戶攜手同行，共同為當下乃至子孫後代構建一個更加公平、更具韌性的世界。",
+                                    }[currentLanguage]
+                                }
+                            </div>
+                        </div>
+                        <div className="vision">
+                            <div className="title">
+                                {
                                     {
-                                        {
-                                            Eng: "Transparency",
-                                            简体: "透明",
-                                            繁體: "透明",
-                                        }[currentLanguage]
-                                    }
-                                </li>
-                                <li>
+                                        Eng: "Vision",
+                                        简体: "愿景",
+                                        繁體: "願景",
+                                    }[currentLanguage]
+                                }
+                            </div>
+                            <div className="description">
+                                {
                                     {
+                                        Eng: "Giga aims to be a world class investment partner of choice, delivering the best investment outcomes, advice and client service.",
+                                        简体: "极佳致力于成为世界级的首选投资合作伙伴，提供卓越的投资成果、专业建议与客户服务。",
+                                        繁體: "極佳致力於成為世界級的首選投資合作夥伴，提供卓越的投資成果、專業建議與客戶服務。",
+                                    }[currentLanguage]
+                                }
+                            </div>
+                        </div>
+                        <div className="values">
+                            <div className="title">
+                                {
+                                    {
+                                        Eng: "Values",
+                                        简体: "价值观",
+                                        繁體: "價值觀",
+                                    }[currentLanguage]
+                                }
+                            </div>
+                            <div className="description">
+                                <ul>
+                                    <li>
                                         {
-                                            Eng: "Reliability",
-                                            简体: "可靠",
-                                            繁體: "可靠",
-                                        }[currentLanguage]
-                                    }
-                                </li>
-                            </ul>
+                                            {
+                                                Eng: "Independence",
+                                                简体: "独立",
+                                                繁體: "獨立",
+                                            }[currentLanguage]
+                                        }
+                                    </li>
+                                    <li>
+                                        {
+                                            {
+                                                Eng: "Integrity",
+                                                简体: "诚信",
+                                                繁體: "誠信",
+                                            }[currentLanguage]
+                                        }
+                                    </li>
+                                    <li>
+                                        {
+                                            {
+                                                Eng: "Transparency",
+                                                简体: "透明",
+                                                繁體: "透明",
+                                            }[currentLanguage]
+                                        }
+                                    </li>
+                                    <li>
+                                        {
+                                            {
+                                                Eng: "Reliability",
+                                                简体: "可靠",
+                                                繁體: "可靠",
+                                            }[currentLanguage]
+                                        }
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>

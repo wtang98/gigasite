@@ -7,7 +7,7 @@
   color: #4C4A47;
 }
 .about__container {
-  width: calc(80% + 50px);
+  width: 100%;
   min-height: 100%;
   display: flex;
   justify-content: center;
@@ -16,7 +16,7 @@
   gap: 20px;
 }
 .about__container--landing {
-  width: 100%;
+  width: calc(80% + 50px);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -40,48 +40,56 @@
   padding: 10px;
 }
 .about__container--description {
+  width: calc(80% + 50px);
   margin-bottom: 30px;
 }
 .about__container--description2 {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: #c6c6c1;
+}
+.about__container--description2__container {
+  padding-top: 30px;
   gap: 20px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 100%;
-  margin-bottom: 30px;
+  width: calc(80% + 50px);
 }
-.about__container--description2 .mission {
+.about__container--description2__container .mission {
   width: 33%;
   min-width: 400px;
 }
-.about__container--description2 .mission .title {
+.about__container--description2__container .mission .title {
   color: #0E2841;
   font-size: x-large;
   font-weight: 500;
 }
-.about__container--description2 .vision {
+.about__container--description2__container .vision {
   width: 33%;
   min-width: 400px;
 }
-.about__container--description2 .vision .title {
+.about__container--description2__container .vision .title {
   color: #0E2841;
   font-size: x-large;
   font-weight: 500;
 }
-.about__container--description2 .values {
+.about__container--description2__container .values {
   min-width: 400px;
 }
-.about__container--description2 .values .title {
+.about__container--description2__container .values .title {
   color: #0E2841;
   font-size: x-large;
   font-weight: 500;
 }
-.about__container--description2 ul {
+.about__container--description2__container ul {
   padding: 0;
   list-style: none;
   color: #4C4A47;
 }
-.about__container--description2 ul li:before {
+.about__container--description2__container ul li:before {
   margin-right: 5px;
   content: "✓";
 }
@@ -89,7 +97,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 100%;
+  width: calc(80% + 50px);
 }
 .about__container--description3 .lam {
   width: 33%;

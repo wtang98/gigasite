@@ -106,7 +106,7 @@ const Home = ({ currentLanguage }) => {
                     </div>
                 </div>
             </div>
-            <Contact />
+            <Contact currentLanguage={currentLanguage} />
         </div>
     );
 };

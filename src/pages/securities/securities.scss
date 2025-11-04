@@ -15,7 +15,7 @@
             align-items: center;
 
             &--title {
-                font-size: xx-large;
+                font-size: 34px;
                 color: #0E2841;
             }
 
@@ -34,6 +34,10 @@
 
         &--description {
             padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
 
             .title {
                 color: #0E2841;
@@ -41,9 +45,17 @@
             }
 
             .content {
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 margin: 0;
-                font-size: 14px;
+                font-size: 18px;
                 color: #4C4A47;
+                text-align: center;
+            }
+
+            .contactButton {
+                margin-top: 20px;
             }
         }
     }

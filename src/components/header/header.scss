@@ -3,15 +3,39 @@
     justify-content: space-between;
     padding: 10px 30px;
 
-    .header-logo {
-        height: 50px;
+    &__left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--menu {
+            display: none;
+        }
+
+        &--links {
+            a {
+                text-decoration: none;
+                color: white;
+                margin-left: 40px;
+            }
+
+            a:hover {
+                color: rgb(198, 198, 193);
+                ;
+                ;
+            }
+        }
+
+        .header-logo {
+            height: 50px;
+        }
+
+        .MuiSvgIcon-root {
+            color: white;
+        }
     }
 
-    .MuiSvgIcon-root {
-        color: white;
-    }
-
-    &--language {
+    &__language {
         display: flex;
         color: white;
         font-size: 18px;
@@ -23,14 +47,20 @@
     }
 }
 
-.MuiList-root {
+.MuiPaper-root {
+    border-radius: 0;
     background-color: #0E2841;
-    padding: 0;
 
-    .MuiTypography-root {
-        display: flex;
-        align-items: start;
-        justify-content: flex-start;
+    .MuiList-root {
+        background-color: #0E2841;
+        padding: 0;
+        width: 120px;
+
+        .MuiTypography-root {
+            display: flex;
+            align-items: start;
+            justify-content: flex-start;
+        }
     }
 }
 
@@ -41,5 +71,24 @@
     a {
         color: white;
         text-decoration: none;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .header {
+
+        &__left {
+            &--menu {
+                margin-left: 40px;
+                display: flex;
+            }
+
+            &--links {
+                display: none;
+            }
+        }
+
     }
 }

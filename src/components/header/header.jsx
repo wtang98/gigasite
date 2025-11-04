@@ -40,52 +40,62 @@ export const Header = ({ currentLanguage, setCurrentLanguage }) => {
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
     };
+
     return (
         <header className="header">
-            <IconButton
-                size="large"
-                edge="start"
-                color="red"
-                aria-label="menu"
-                sx={{ mr: 2 }}
-                onClick={handleOpenNavMenu}
-            >
-                <MenuIcon />
-            </IconButton>
-            <Menu
-                id="menu-appbar"
-                anchorEl={anchorElNav}
-                anchorOrigin={{
-                    vertical: "bottom",
-                    horizontal: "left",
-                }}
-                keepMounted
-                transformOrigin={{
-                    vertical: "top",
-                    horizontal: "left",
-                }}
-                open={Boolean(anchorElNav)}
-                onClose={handleCloseNavMenu}
-            >
-                {pages.map((page) => (
-                    <Typography
-                        key={page?.[currentLanguage]}
-                        className="menu-appbar"
-                        sx={{ textAlign: "center" }}
+            <div className="header__left">
+                <Link to="/">
+                    <img src={logo} className="header-logo" alt="logo" />
+                </Link>
+                <div className="header__left--menu">
+                    <IconButton
+                        size="large"
+                        edge="start"
+                        color="red"
+                        aria-label="menu"
+                        sx={{ mr: 2 }}
+                        onClick={handleOpenNavMenu}
                     >
-                        <Link
-                            to={page["Eng"].toLowerCase().split(" ")[0]}
-                            onClick={handleCloseNavMenu}
-                        >
-                            {page?.[currentLanguage]}
-                        </Link>
-                    </Typography>
-                ))}
-            </Menu>
-            <Link to="/">
-                <img src={logo} className="header-logo" alt="logo" />
-            </Link>
-            <div onClick={handleLanguage} className="header--language">
+                        <MenuIcon />
+                    </IconButton>
+                    <Menu
+                        id="menu-appbar"
+                        anchorEl={anchorElNav}
+                        anchorOrigin={{
+                            vertical: "bottom",
+                            horizontal: "left",
+                        }}
+                        keepMounted
+                        transformOrigin={{
+                            vertical: "top",
+                            horizontal: "left",
+                        }}
+                        open={Boolean(anchorElNav)}
+                        onClose={handleCloseNavMenu}
+                    >
+                        {pages.map((page) => (
+                            <Typography
+                                key={page?.[currentLanguage]}
+                                className="menu-appbar"
+                                sx={{ textAlign: "center" }}
+                            >
+                                <Link
+                                    to={page["Eng"].toLowerCase().split(" ")[0]}
+                                    onClick={handleCloseNavMenu}
+                                >
+                                    {page?.[currentLanguage]}
+                                </Link>
+                            </Typography>
+                        ))}
+                    </Menu>
+                </div>
+                <div className="header__left--links">
+                    <Link to="/securities">Securities</Link>
+                    <Link to="/services">Services</Link>
+                    <Link to="/about">About</Link>
+                </div>
+            </div>
+            <div onClick={handleLanguage} className="header__language">
                 {currentLanguage}
             </div>
         </header>

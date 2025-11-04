@@ -3,13 +3,29 @@
   justify-content: space-between;
   padding: 10px 30px;
 }
-.header .header-logo {
+.header__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__left--menu {
+  display: none;
+}
+.header__left--links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 40px;
+}
+.header__left--links a:hover {
+  color: #c6c6c1;
+}
+.header__left .header-logo {
   height: 50px;
 }
-.header .MuiSvgIcon-root {
+.header__left .MuiSvgIcon-root {
   color: white;
 }
-.header--language {
+.header__language {
   display: flex;
   color: white;
   font-size: 18px;
@@ -20,11 +36,16 @@
   width: 55px;
 }
 
-.MuiList-root {
+.MuiPaper-root {
+  border-radius: 0;
+  background-color: #0E2841;
+}
+.MuiPaper-root .MuiList-root {
   background-color: #0E2841;
   padding: 0;
+  width: 120px;
 }
-.MuiList-root .MuiTypography-root {
+.MuiPaper-root .MuiList-root .MuiTypography-root {
   display: flex;
   align-items: start;
   justify-content: flex-start;
@@ -37,4 +58,14 @@
 .menu-appbar a {
   color: white;
   text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .header__left--menu {
+    margin-left: 40px;
+    display: flex;
+  }
+  .header__left--links {
+    display: none;
+  }
 }

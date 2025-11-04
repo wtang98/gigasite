@@ -1,0 +1,14 @@
+.contactButton {
+    width: 115px;
+    height: 40px;
+    background-color: #0E2841;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+    }
+}

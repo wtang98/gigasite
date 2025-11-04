@@ -3,7 +3,6 @@
   min-height: inherit;
   display: flex;
   justify-content: center;
-  gap: 20px;
   color: #4C4A47;
 }
 .about__container {
@@ -13,7 +12,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 70px;
 }
 .about__container--landing {
   width: calc(80% + 50px);
@@ -21,7 +20,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 30px;
 }
 .about__container--landing .img {
   background-size: cover;
@@ -34,57 +32,62 @@
   background-image: url("../../assets/lowAngleBuildingShot.jpg");
 }
 .about__container--landing .title {
-  font-size: xx-large;
+  font-size: 28px;
   color: #0E2841;
   width: 150px;
-  padding: 10px;
 }
 .about__container--description {
   width: calc(80% + 50px);
-  margin-bottom: 30px;
+  font-size: 14px;
 }
 .about__container--description2 {
-  width: 100%;
-  margin-bottom: 30px;
+  width: calc(80% + 110px);
+  border-radius: 5px;
   display: flex;
   justify-content: center;
-  background-color: #c6c6c1;
+  background-color: rgba(198, 198, 193, 0.35);
 }
 .about__container--description2__container {
-  padding-top: 30px;
+  padding: 30px;
   gap: 20px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: calc(80% + 50px);
 }
 .about__container--description2__container .mission {
   width: 33%;
-  min-width: 400px;
+  min-width: 150px;
 }
 .about__container--description2__container .mission .title {
   color: #0E2841;
-  font-size: x-large;
-  font-weight: 500;
+  font-size: 28px;
+}
+.about__container--description2__container .mission .description {
+  font-size: 14px;
 }
 .about__container--description2__container .vision {
   width: 33%;
-  min-width: 400px;
+  min-width: 150px;
 }
 .about__container--description2__container .vision .title {
   color: #0E2841;
-  font-size: x-large;
-  font-weight: 500;
+  font-size: 28px;
+}
+.about__container--description2__container .vision .description {
+  font-size: 14px;
 }
 .about__container--description2__container .values {
-  min-width: 400px;
+  min-width: 150px;
 }
 .about__container--description2__container .values .title {
   color: #0E2841;
-  font-size: x-large;
-  font-weight: 500;
+  font-size: 28px;
+}
+.about__container--description2__container .values .description {
+  font-size: 14px;
 }
 .about__container--description2__container ul {
+  margin: 0;
   padding: 0;
   list-style: none;
   color: #4C4A47;
@@ -98,6 +101,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   width: calc(80% + 50px);
+  margin-bottom: 20px;
 }
 .about__container--description3 .lam {
   width: 33%;
@@ -105,8 +109,10 @@
 }
 .about__container--description3 .lam .title {
   color: #0E2841;
-  font-size: x-large;
-  font-weight: 500;
+  font-size: 28px;
+}
+.about__container--description3 .lam .description {
+  font-size: 14px;
 }
 .about__container--description3 .li {
   width: 33%;
@@ -114,6 +120,8 @@
 }
 .about__container--description3 .li .title {
   color: #0E2841;
-  font-size: x-large;
-  font-weight: 500;
+  font-size: 28px;
+}
+.about__container--description3 .li .description {
+  font-size: 14px;
 }

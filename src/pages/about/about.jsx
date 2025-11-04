@@ -137,7 +137,7 @@ const About = ({ currentLanguage }) => {
                         </div>
                     </div>
                     <div className="li">
-                        <div className="title">Li Hok Lai 李秉宸</div>
+                        <div className="title">Lee Bing San 李秉宸</div>
                         <div className="description">
                             {
                                 {

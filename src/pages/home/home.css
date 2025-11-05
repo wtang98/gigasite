@@ -173,7 +173,7 @@
 .home--about__container--description .link a:hover {
   text-decoration: underline;
 }
-@media (max-width: 450px) {
+@media (max-width: 635px) {
   .home .home--about__container {
     display: flex;
     flex-direction: column;

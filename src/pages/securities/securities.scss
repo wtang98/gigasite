@@ -12,10 +12,11 @@
         &--landing {
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             align-items: center;
 
             &--title {
-                font-size: 34px;
+                font-size: 28px;
                 color: #0E2841;
             }
 
@@ -36,7 +37,7 @@
             padding: 20px 0;
             display: flex;
             align-items: center;
-            justify-content: center;
+            // justify-content: center;
             flex-direction: column;
 
             .title {
@@ -46,18 +47,67 @@
 
             .content {
                 display: flex;
-                align-items: center;
-                justify-content: center;
+                // align-items: center;
+                // justify-content: center;
                 margin: 0;
                 font-size: 18px;
                 color: #4C4A47;
-                text-align: center;
+                // text-align: center;
             }
 
             .contactButton {
                 margin-top: 20px;
             }
         }
+    }
+
+}
+
+
+
+@media (max-width: 451px) {
+    .securities {
+
+        &__container {
+
+            &--landing {
+                //         &--title {
+                //         }
+
+                &--img {
+                    width: 330px;
+                }
+
+            }
+
+            &--description {
+                //         padding: 20px 0;
+                //         display: flex;
+                //         align-items: center;
+                //         justify-content: center;
+                //         flex-direction: column;
+
+                //         .title {
+                //             color: #0E2841;
+                //             font-size: larger;
+                //         }
+
+                //         .content {
+                //             display: flex;
+                //             align-items: center;
+                //             justify-content: center;
+                //             margin: 0;
+                //             font-size: 18px;
+                //             color: #4C4A47;
+                //             text-align: center;
+                //         }
+
+                //         .contactButton {
+                //             margin-top: 20px;
+                //         }
+            }
+        }
+
     }
 
 }

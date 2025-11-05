@@ -29,6 +29,17 @@ const Securities = ({ currentLanguage }) => {
                         }
                     </div>
                     <ContactButton currentLanguage={currentLanguage} />
+                    <div className="contactButton">
+                        {/* <a href="/"> */}
+                        {
+                            {
+                                Eng: "Download App",
+                                简体: "联系我们",
+                                繁體: "聯絡我們",
+                            }[currentLanguage]
+                        }
+                        {/* </a> */}
+                    </div>
                 </div>
             </div>
         </div>

@@ -22,16 +22,16 @@ const Services = ({ currentLanguage }) => {
                                 }[currentLanguage]
                             }
                         </div>
-                        <div className="text">
-                            {
-                                {
-                                    Eng: "Our strategies and tailored approach across all asset classes enable us to achieve our clients needs and goals. We actively monitor our offerings with the objective to outperform benchmark returns in every situation.",
-                                    简体: "我们跨资产类别的策略与定制化方法，使我们能够有效满足客户的需求与目标。我们积极监控各项投资方案，力求在任何市场环境下都能实现超越基准回报的目标。",
-                                    繁體: "我們跨資產類別的策略與定制化方法，使我們能夠有效滿足客戶的需求與目標。我們積極監控各項投資方案，力求在任何市場環境下都能實現超越基準回報的目標。",
-                                }[currentLanguage]
-                            }
-                        </div>
                     </div>
+                </div>
+                <div className="services__container--about">
+                    {
+                        {
+                            Eng: "Our strategies and tailored approach across all asset classes enable us to achieve our clients needs and goals. We actively monitor our offerings with the objective to outperform benchmark returns in every situation.",
+                            简体: "我们跨资产类别的策略与定制化方法，使我们能够有效满足客户的需求与目标。我们积极监控各项投资方案，力求在任何市场环境下都能实现超越基准回报的目标。",
+                            繁體: "我們跨資產類別的策略與定制化方法，使我們能夠有效滿足客戶的需求與目標。我們積極監控各項投資方案，力求在任何市場環境下都能實現超越基準回報的目標。",
+                        }[currentLanguage]
+                    }
                 </div>
                 <div className="services__container--carousel">
                     <div className="services__container--carousel--buttons">

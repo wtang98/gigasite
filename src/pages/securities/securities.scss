@@ -37,7 +37,6 @@
             padding: 20px 0;
             display: flex;
             align-items: center;
-            // justify-content: center;
             flex-direction: column;
 
             .title {
@@ -47,16 +46,20 @@
 
             .content {
                 display: flex;
-                // align-items: center;
-                // justify-content: center;
                 margin: 0;
-                font-size: 18px;
+                font-size: 14px;
                 color: #4C4A47;
-                // text-align: center;
             }
 
-            .contactButton {
-                margin-top: 20px;
+            &__buttons {
+                display: flex;
+                flex-direction: row;
+
+                .contactButton {
+                    margin: 20px 20px 0 0;
+                    color: white;
+                    font-size: 13px;
+                }
             }
         }
     }

@@ -133,7 +133,7 @@ const About = ({ currentLanguage }) => {
                             <div className="description">
                                 {
                                     {
-                                        Eng: " A senior financial leader with a distinctive background combining a Master's in Applied Economics and a Master's in Engineering Technology. With nearly a decade of experience as a Responsible Officer and Executive Director at leading Hong Kong firms, Altair Capital, Datang Financial, Duodu Futures and presently Giga (Hong Kong).",
+                                        Eng: "A senior financial leader with a distinctive background combining a Master's in Applied Economics and a Master's in Engineering Technology. With nearly a decade of experience as a Responsible Officer and Executive Director at leading Hong Kong firms, Altair Capital, Datang Financial, Duodu Futures and presently Giga (Hong Kong) and Everest Securities.",
                                         简体: "一位拥有卓越背景的资深金融领袖，兼具应用经济学硕士与工程技术硕士双学位。在香港领先企业——牵牛星资本、大唐金融、多多期货及现任极佳（香港）担任负责人员及执行董事近十年。",
                                         繁體: "一位擁有卓越背景的資深金融領袖，兼具應用經濟學碩士與工程技術碩士雙學位。在香港領先企業——牽牛星資本、大唐金融、多多期貨及現任極佳（香港）擔任負責人員及執行董事近十年",
                                     }[currentLanguage]
@@ -145,9 +145,9 @@ const About = ({ currentLanguage }) => {
                             <div className="description">
                                 {
                                     {
-                                        Eng: "   A seasoned financial executive and Responsible Officer with over seven years of senior leadership experience.",
-                                        简体: "一位资深的金融高管与负责人员，拥有逾八年的高级领导经验。曾先后任职于知名企业——国安国际有限公司（143.HK）、蓝山资产管理有限公司、大唐金融、中财证券以及现任极佳（香港）。",
-                                        繁體: "一位資深的金融高管與負責人員，擁有逾八年的高級領導經驗。曾先後任職於知名企業——國安國際有限公司（143.HK）、藍山資產管理有限公司、大唐金融、中財證券以及現任極佳（香港）。",
+                                        Eng: "A seasoned financial executive and Responsible Officer with over seven years of senior leadership experience with roles at Golden Rich, China CIFCO, Sinofides, Central Wealth Securities Investments and presently Giga (Hong Kong) and Everest Securities",
+                                        简体: "一位经验丰富的金融高管和负责人员，拥有超过七年的高级领导经验，曾任职于金利丰、中期证券、中投证券、中富证券、华邦证券，Giga（香港）和 Everest Securities。",
+                                        繁體: "一位经验老到嘅金融高管同负责人员，拥有超过七年嘅高级领导经验，曾经喺金利丰、中期证券、中投证券、中富证券、华邦证券担任要职，而家效力于 Giga（香港）同Everest Securities。",
                                     }[currentLanguage]
                                 }
                             </div>

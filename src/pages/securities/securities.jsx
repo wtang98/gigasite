@@ -28,17 +28,19 @@ const Securities = ({ currentLanguage }) => {
                             }[currentLanguage]
                         }
                     </div>
-                    <ContactButton currentLanguage={currentLanguage} />
-                    <div className="contactButton">
-                        {/* <a href="/"> */}
-                        {
+                    <div className="securities__container--description__buttons">
+                        <ContactButton currentLanguage={currentLanguage} />
+                        <div className="contactButton">
+                            {/* <a href="/"> */}
                             {
-                                Eng: "Download App",
-                                简体: "联系我们",
-                                繁體: "聯絡我們",
-                            }[currentLanguage]
-                        }
-                        {/* </a> */}
+                                {
+                                    Eng: "Download App",
+                                    简体: "下载App",
+                                    繁體: "下载App",
+                                }[currentLanguage]
+                            }
+                            {/* </a> */}
+                        </div>
                     </div>
                 </div>
             </div>

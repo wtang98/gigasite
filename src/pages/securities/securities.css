@@ -42,11 +42,17 @@
 .securities__container--description .content {
   display: flex;
   margin: 0;
-  font-size: 18px;
+  font-size: 14px;
   color: #4C4A47;
 }
-.securities__container--description .contactButton {
-  margin-top: 20px;
+.securities__container--description__buttons {
+  display: flex;
+  flex-direction: row;
+}
+.securities__container--description__buttons .contactButton {
+  margin: 20px 20px 0 0;
+  color: white;
+  font-size: 13px;
 }
 
 @media (max-width: 451px) {

@@ -48,15 +48,70 @@
 .securities__container--description__buttons {
   display: flex;
   flex-direction: row;
+  gap: 20px;
 }
 .securities__container--description__buttons .contactButton {
-  margin: 20px 20px 0 0;
+  margin: 20px 0 0 0;
   color: white;
   font-size: 13px;
+}
+.securities__container--tech {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.securities__container--tech .title {
+  font-size: 28px;
+  color: #0E2841;
+}
+.securities__container--tech .text {
+  font-size: 14px;
+  color: #4C4A47;
+}
+.securities__container--tech__links {
+  display: flex;
+  gap: 20px;
+}
+.securities__container--tech__links .row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 @media (max-width: 451px) {
   .securities__container--landing--img {
     width: 330px;
   }
+}
+.download {
+  width: 150px;
+  height: 50px;
+}
+.download a {
+  text-decoration: none;
+}
+.download a button {
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 20px;
+  width: 100%;
+  height: 100%;
+  border: #0E2841 1px solid;
+  background-color: rgba(198, 198, 193, 0.35);
+  color: #0E2841;
+}
+.download a button img {
+  width: 25px;
+  height: 30px;
+  margin-right: 5px;
+}
+.download a button .download__text {
+  color: #0E2841;
+}
+.download a button:hover {
+  background-color: rgba(198, 198, 193, 0.75);
+  border: none;
+  cursor: pointer;
 }

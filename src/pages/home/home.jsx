@@ -39,7 +39,15 @@ const Home = ({ currentLanguage }) => {
                             }
                         </p>
                         <p className="link">
-                            <Link to={"services"}>Learn More</Link>
+                            <Link to={"services"}>
+                                {
+                                    {
+                                        Eng: "Learn More",
+                                        简体: "了解更多",
+                                        繁體: "了解更多",
+                                    }[currentLanguage]
+                                }
+                            </Link>
                         </p>
                     </div>
                 </div>
@@ -65,7 +73,16 @@ const Home = ({ currentLanguage }) => {
                             }
                         </p>
                         <p className="link">
-                            <Link to={"securities"}>Learn More</Link>
+                            <Link to={"securities"}>
+                                {" "}
+                                {
+                                    {
+                                        Eng: "Learn More",
+                                        简体: "了解更多",
+                                        繁體: "了解更多",
+                                    }[currentLanguage]
+                                }
+                            </Link>
                         </p>
                     </div>
                 </div>

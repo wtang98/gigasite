@@ -90,9 +90,33 @@ export const Header = ({ currentLanguage, setCurrentLanguage }) => {
                     </Menu>
                 </div>
                 <div className="header__left--links">
-                    <Link to="/securities">Securities</Link>
-                    <Link to="/services">Services</Link>
-                    <Link to="/about">About</Link>
+                    <Link to="/securities">
+                        {
+                            {
+                                Eng: "Securities",
+                                简体: "证券",
+                                繁體: "證券",
+                            }[currentLanguage]
+                        }
+                    </Link>
+                    <Link to="/services">
+                        {
+                            {
+                                Eng: "Services",
+                                简体: "服务",
+                                繁體: "服務",
+                            }[currentLanguage]
+                        }
+                    </Link>
+                    <Link to="/about">
+                        {
+                            {
+                                Eng: "About",
+                                简体: "关于",
+                                繁體: "關於",
+                            }[currentLanguage]
+                        }
+                    </Link>
                 </div>
             </div>
             <div onClick={handleLanguage} className="header__language">

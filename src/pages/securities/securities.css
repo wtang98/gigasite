@@ -59,6 +59,9 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  background-color: rgba(198, 198, 193, 0.35);
+  padding: 20px;
+  border-radius: 15px;
 }
 .securities__container--tech .title {
   font-size: 28px;
@@ -70,6 +73,7 @@
 }
 .securities__container--tech__links {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .securities__container--tech__links .row {
@@ -77,12 +81,19 @@
   flex-direction: row;
   gap: 20px;
 }
-
-@media (max-width: 451px) {
-  .securities__container--landing--img {
-    width: 330px;
-  }
+.securities__container--tech__info .infoRow {
+  display: flex;
+  color: #0E2841;
+  align-items: center;
+  margin-bottom: 20px;
 }
+.securities__container--tech__info .infoRow > svg {
+  margin-right: 10px;
+}
+.securities__container--tech__info .infoRow__info {
+  color: #4C4A47;
+}
+
 .download {
   width: 150px;
   height: 50px;
@@ -91,7 +102,7 @@
   text-decoration: none;
 }
 .download a button {
-  border-radius: 25px;
+  border-radius: 15px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -114,4 +125,10 @@
   background-color: rgba(198, 198, 193, 0.75);
   border: none;
   cursor: pointer;
+}
+
+@media (max-width: 451px) {
+  .securities__container--landing--img {
+    width: 330px;
+  }
 }

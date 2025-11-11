@@ -146,8 +146,8 @@ const About = ({ currentLanguage }) => {
                                 {
                                     {
                                         Eng: "A seasoned financial executive and Responsible Officer with over seven years of senior leadership experience with roles at Golden Rich, China CIFCO, Sinofides, Central Wealth Securities Investments and presently Giga (Hong Kong) and Everest Securities",
-                                        简体: "一位经验丰富的金融高管和负责人员，拥有超过七年的高级领导经验，曾任职于金利丰、中期证券、中投证券、中富证券、华邦证券，Giga（香港）和 Everest Securities。",
-                                        繁體: "一位经验老到嘅金融高管同负责人员，拥有超过七年嘅高级领导经验，曾经喺金利丰、中期证券、中投证券、中富证券、华邦证券担任要职，而家效力于 Giga（香港）同Everest Securities。",
+                                        简体: "一位经验丰富的金融高管和负责人员，拥有超过七年的高级领导经验，曾任职于金利通、中期证券、中诚信、中财证券投资等机构，现任Giga（香港）与Everest Securities要职。",
+                                        繁體: "一位經驗豐富的金融高管和負責人員，擁有超過七年的高級領導經驗，曾任職於金利通、中期證券、中誠信、中財證券投資等機構，現任Giga（香港）與Everest Securities要職。",
                                     }[currentLanguage]
                                 }
                             </div>

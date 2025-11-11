@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Header } from "./components/header/header";
-import { BrowserRouter, Routes, Route } from "react-router";
+import { BrowserRouter, Routes, Route, Redirect } from "react-router";
 import About from "./pages/about/about.jsx";
 import Services from "./pages/services/services.jsx";
 import Home from "./pages/home/home.jsx";
@@ -24,32 +24,32 @@ const App = () => {
                 <div className="App__content">
                     <Routes>
                         <Route
-                            path="/"
-                            element={<Home currentLanguage={currentLanguage} />}
-                        />
-                        <Route
-                            path="/about"
+                            path="/gigasite/about"
                             element={
                                 <About currentLanguage={currentLanguage} />
                             }
                         />
                         <Route
-                            path="/securities"
+                            path="/gigasite/securities"
                             element={
                                 <Securities currentLanguage={currentLanguage} />
                             }
                         />
                         <Route
-                            path="/services"
+                            path="/gigasite/services"
                             element={
                                 <Services currentLanguage={currentLanguage} />
                             }
                         />
                         <Route
-                            path="/contact"
+                            path="/gigasite/contact"
                             element={
                                 <Contact currentLanguage={currentLanguage} />
                             }
+                        />
+                        <Route
+                            path="/gigasite/"
+                            element={<Home currentLanguage={currentLanguage} />}
                         />
                     </Routes>
                     <Footer />

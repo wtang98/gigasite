@@ -44,7 +44,7 @@ export const Header = ({ currentLanguage, setCurrentLanguage }) => {
     return (
         <header className="header">
             <div className="header__left">
-                <Link to="/">
+                <Link to="/gigasite">
                     <img src={logo} className="header-logo" alt="logo" />
                 </Link>
                 <div className="header__left--menu">
@@ -90,7 +90,7 @@ export const Header = ({ currentLanguage, setCurrentLanguage }) => {
                     </Menu>
                 </div>
                 <div className="header__left--links">
-                    <Link to="/securities">
+                    <Link to="/gigasite/securities">
                         {
                             {
                                 Eng: "Securities",
@@ -99,7 +99,7 @@ export const Header = ({ currentLanguage, setCurrentLanguage }) => {
                             }[currentLanguage]
                         }
                     </Link>
-                    <Link to="/services">
+                    <Link to="/gigasite/services">
                         {
                             {
                                 Eng: "Services",
@@ -108,7 +108,7 @@ export const Header = ({ currentLanguage, setCurrentLanguage }) => {
                             }[currentLanguage]
                         }
                     </Link>
-                    <Link to="/about">
+                    <Link to="/gigasite/about">
                         {
                             {
                                 Eng: "About",

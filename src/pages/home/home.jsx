@@ -39,7 +39,7 @@ const Home = ({ currentLanguage }) => {
                             }
                         </p>
                         <p className="link">
-                            <Link to={"services"}>
+                            <Link to={"/gigasite/services"}>
                                 {
                                     {
                                         Eng: "Learn More",
@@ -73,8 +73,7 @@ const Home = ({ currentLanguage }) => {
                             }
                         </p>
                         <p className="link">
-                            <Link to={"securities"}>
-                                {" "}
+                            <Link to={"/gigasite/securities"}>
                                 {
                                     {
                                         Eng: "Learn More",
@@ -110,7 +109,7 @@ const Home = ({ currentLanguage }) => {
                             }
                         </p>
                         <p className="link">
-                            <Link to={"about"}>
+                            <Link to={"/gigasite/about"}>
                                 {
                                     {
                                         Eng: "Learn More",

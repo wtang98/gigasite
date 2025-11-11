@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gigasite/static/css/main.d43f8d32.css",
-    "main.js": "/gigasite/static/js/main.208eb48c.js",
+    "main.css": "/gigasite/static/css/main.4323edb4.css",
+    "main.js": "/gigasite/static/js/main.0a07ea87.js",
     "static/js/453.a39d58b4.chunk.js": "/gigasite/static/js/453.a39d58b4.chunk.js",
     "static/media/lowAngleBuildingShot.jpg": "/gigasite/static/media/lowAngleBuildingShot.cf0b5cf310060ba5e4ef.jpg",
     "static/media/fo.jpg": "/gigasite/static/media/fo.0249c32ed4138fa90727.jpg",
@@ -11,14 +11,16 @@
     "static/media/united.jpg": "/gigasite/static/media/united.a3bce7c232f92eaa6233.jpg",
     "static/media/oldtown.jpg": "/gigasite/static/media/oldtown.48ba89fcc0c0dd8601ed.jpg",
     "static/media/chart.jpg": "/gigasite/static/media/chart.c6d74cc909cc0117ee88.jpg",
+    "static/media/apple.svg.png": "/gigasite/static/media/apple.svg.ebddd05f0b18311e8f1c.png",
     "static/media/securites.jpg": "/gigasite/static/media/securites.1dbec0750d3bb86acb69.jpg",
+    "static/media/android.jpg": "/gigasite/static/media/android.c76c464fef7d60feff65.jpg",
     "index.html": "/gigasite/index.html",
-    "main.d43f8d32.css.map": "/gigasite/static/css/main.d43f8d32.css.map",
-    "main.208eb48c.js.map": "/gigasite/static/js/main.208eb48c.js.map",
+    "main.4323edb4.css.map": "/gigasite/static/css/main.4323edb4.css.map",
+    "main.0a07ea87.js.map": "/gigasite/static/js/main.0a07ea87.js.map",
     "453.a39d58b4.chunk.js.map": "/gigasite/static/js/453.a39d58b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d43f8d32.css",
-    "static/js/main.208eb48c.js"
+    "static/css/main.4323edb4.css",
+    "static/js/main.0a07ea87.js"
   ]
 }

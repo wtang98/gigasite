@@ -190,3 +190,8 @@
     border-radius: 5px 5px 0 0;
   }
 }
+@media (max-width: 634px) {
+  .services__container--carousel--content--investment__img, .services__container--carousel--content--asset__img, .services__container--carousel--content--family__img {
+    margin-left: 0;
+  }
+}

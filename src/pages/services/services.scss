@@ -266,3 +266,16 @@
         }
     }
 }
+
+@media (max-width: 634px) {
+    .services__container--carousel--content {
+
+        &--investment,
+        &--asset,
+        &--family {
+            &__img {
+                margin-left: 0;
+            }
+        }
+    }
+}

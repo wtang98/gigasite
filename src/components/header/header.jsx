@@ -80,7 +80,9 @@ export const Header = ({ currentLanguage, setCurrentLanguage }) => {
                                 sx={{ textAlign: "center" }}
                             >
                                 <Link
-                                    to={page["Eng"].toLowerCase().split(" ")[0]}
+                                    to={`gigaSite/${
+                                        page["Eng"].toLowerCase().split(" ")[0]
+                                    }`}
                                     onClick={handleCloseNavMenu}
                                 >
                                     {page?.[currentLanguage]}

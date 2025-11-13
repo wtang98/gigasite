@@ -47,10 +47,10 @@ const App = () => {
                                 <Contact currentLanguage={currentLanguage} />
                             }
                         />
-                        {/* <Route
-                            path="/gigaSite"
+                        <Route
+                            path="/everest"
                             element={<Home currentLanguage={currentLanguage} />}
-                        /> */}
+                        />
                         <Route
                             path="/"
                             element={<Home currentLanguage={currentLanguage} />}

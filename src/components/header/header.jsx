@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../assets/giga logo.png";
+import logo from "../../assets/everest_white.png";
 import { Link } from "react-router";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -44,7 +44,7 @@ export const Header = ({ currentLanguage, setCurrentLanguage }) => {
     return (
         <header className="header">
             <div className="header__left">
-                <Link to="/gigasite">
+                <Link to="/">
                     <img src={logo} className="header-logo" alt="logo" />
                 </Link>
                 <div className="header__left--menu">
@@ -92,7 +92,7 @@ export const Header = ({ currentLanguage, setCurrentLanguage }) => {
                     </Menu>
                 </div>
                 <div className="header__left--links">
-                    <Link to="/gigasite/securities">
+                    <Link to="/securities">
                         {
                             {
                                 Eng: "Securities",
@@ -101,7 +101,7 @@ export const Header = ({ currentLanguage, setCurrentLanguage }) => {
                             }[currentLanguage]
                         }
                     </Link>
-                    <Link to="/gigasite/services">
+                    <Link to="/services">
                         {
                             {
                                 Eng: "Services",
@@ -110,7 +110,7 @@ export const Header = ({ currentLanguage, setCurrentLanguage }) => {
                             }[currentLanguage]
                         }
                     </Link>
-                    <Link to="/gigasite/about">
+                    <Link to="/about">
                         {
                             {
                                 Eng: "About",

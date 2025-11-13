@@ -7,7 +7,7 @@ const Home = ({ currentLanguage }) => {
     return (
         <div className="home">
             <div className="home--landing">
-                <div className="title">Giga Hong Kong</div>
+                <div className="title">Everest Hong Kong</div>
                 <p>
                     {
                         {
@@ -39,7 +39,7 @@ const Home = ({ currentLanguage }) => {
                             }
                         </p>
                         <p className="link">
-                            <Link to={"/gigasite/services"}>
+                            <Link to={"/services"}>
                                 {
                                     {
                                         Eng: "Learn More",
@@ -73,7 +73,7 @@ const Home = ({ currentLanguage }) => {
                             }
                         </p>
                         <p className="link">
-                            <Link to={"/gigasite/securities"}>
+                            <Link to={"/securities"}>
                                 {
                                     {
                                         Eng: "Learn More",
@@ -109,7 +109,7 @@ const Home = ({ currentLanguage }) => {
                             }
                         </p>
                         <p className="link">
-                            <Link to={"/gigasite/about"}>
+                            <Link to={"/about"}>
                                 {
                                     {
                                         Eng: "Learn More",

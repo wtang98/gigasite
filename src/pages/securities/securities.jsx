@@ -41,9 +41,9 @@ const Securities = ({ currentLanguage }) => {
                     <div className="content">
                         {
                             {
-                                Eng: "At Giga securities trading services are provided by our partnership with Everest Securities Limited a Hong Kong licensed securities firm authorized by the Securities and Futures Commission(SFC) to carry on Type 1 regulated activity dealing in securities under the Securities and Futures Ordinance(Cap. 571).",
-                                简体: "在Giga，证券交易服务由我们与Everest Securities Limited合作提供。该公司是一家持香港牌照的证券行，经证券及期货事务监察委员会（证监会）根据《证券及期货条例》（第571章）授权，从事第1类受规管活动（证券交易）。",
-                                繁體: "在Giga，證券交易服務由我們與Everest Securities Limited合作提供。該公司是一家持香港牌照的證券行，經證券及期貨事務監察委員會（證監會）根據《證券及期貨條例》（第571章）授權，從事第1類受規管活動（證券交易）。",
+                                Eng: "Everest Securities Limited is a Hong Kong licensed securities firm authorized by the Securities and Futures Commission(SFC) to carry on Type 1 regulated activity dealing in securities under the Securities and Futures Ordinance(Cap. 571).",
+                                简体: "Everest Securities Limited是一家持香港牌照的证券行，经证券及期货事务监察委员会（证监会）根据《证券及期货条例》（第571章）授权，从事第1类受规管活动（证券交易）。",
+                                繁體: "Everest Securities Limited是一家持香港牌照的證券行，經證券及期貨事務監察委員會（證監會）根據《證券及期貨條例》（第571章）授權，從事第1類受規管活動（證券交易）。",
                             }[currentLanguage]
                         }
                         <br />

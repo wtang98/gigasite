@@ -187,9 +187,9 @@ const Services = ({ currentLanguage }) => {
                         <div className="text">
                             {
                                 {
-                                    Eng: "Giga’s investment philosophy relies on fundamental, bottom-up stock specific research to identify long equity investments, which are then constructed within a disciplined risk managed portfolio in an effort to isolate stock specific alpha and minimize unintended systematic portfolio volatility.  ",
-                                    简体: "极佳的投资理念立足于基本面自下而上的个股研究，以此甄选长期股权投资标的，并通过严格的风险管理投资组合构建体系，有效分离个股超额收益，最大限度降低非系统性投资组合波动。",
-                                    繁體: "極佳的投資理念立足於基本面自下而上的個股研究，以此甄選長期股權投資標的，並通過嚴格的風險管理投資組合構建體系，有效分離個股超額收益，最大限度降低非系統性投資組合波動。",
+                                    Eng: "Everests' investment philosophy relies on fundamental, bottom-up stock specific research to identify long equity investments, which are then constructed within a disciplined risk managed portfolio in an effort to isolate stock specific alpha and minimize unintended systematic portfolio volatility.  ",
+                                    简体: "Everests' 的投资理念立足于基本面自下而上的个股研究，以此甄选长期股权投资标的，并通过严格的风险管理投资组合构建体系，有效分离个股超额收益，最大限度降低非系统性投资组合波动。",
+                                    繁體: "Everests' 的投資理念立足於基本面自下而上的個股研究，以此甄選長期股權投資標的，並通過嚴格的風險管理投資組合構建體系，有效分離個股超額收益，最大限度降低非系統性投資組合波動。",
                                 }[currentLanguage]
                             }
                         </div>

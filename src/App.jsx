@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Header } from "./components/header/header";
-import { BrowserRouter, Routes, Route, Redirect } from "react-router";
+import { BrowserRouter, Routes, Route } from "react-router";
 import About from "./pages/about/about.jsx";
 import Services from "./pages/services/services.jsx";
 import Home from "./pages/home/home.jsx";
@@ -24,31 +24,35 @@ const App = () => {
                 <div className="App__content">
                     <Routes>
                         <Route
-                            path="/gigasite/about"
+                            path="/about"
                             element={
                                 <About currentLanguage={currentLanguage} />
                             }
                         />
                         <Route
-                            path="/gigasite/securities"
+                            path="/securities"
                             element={
                                 <Securities currentLanguage={currentLanguage} />
                             }
                         />
                         <Route
-                            path="/gigasite/services"
+                            path="/services"
                             element={
                                 <Services currentLanguage={currentLanguage} />
                             }
                         />
                         <Route
-                            path="/gigasite/contact"
+                            path="/contact"
                             element={
                                 <Contact currentLanguage={currentLanguage} />
                             }
                         />
+                        {/* <Route
+                            path="/gigaSite"
+                            element={<Home currentLanguage={currentLanguage} />}
+                        /> */}
                         <Route
-                            path="/gigasite/"
+                            path="/"
                             element={<Home currentLanguage={currentLanguage} />}
                         />
                     </Routes>

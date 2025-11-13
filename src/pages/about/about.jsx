@@ -17,17 +17,23 @@ const About = ({ currentLanguage }) => {
                         }
                     </div>
                 </div>
-
                 <div className="about__container--description">
                     {
                         {
-                            Eng: "Giga Hong Kong Limited was founded in Hong Kong in 2001. It is regulated in Hong Kong with the Securities and Futures Commission (SFC) since 2003. The Company has managed and advised on a series of funds in the past 15 years and is managed by a team with over 30 years of hedge fund and investment management experience.",
-                            简体: "Giga Hong Kong Limited 于2001年在香港成立，自2003年起持续接受香港证券及期货事务监察委员会（证监会）监管。过去十五年来，公司管理及顾问过多支基金，其管理团队在对冲基金与投资管理领域拥有逾三十年丰富经验。",
-                            繁體: "Giga Hong Kong Limited 於2001年在香港成立，自2003年起持續接受香港證券及期貨事務監察委員會（證監會）監管。過去十五年來，公司管理及顧問過多支基金，其管理團隊在對沖基金與投資管理領域擁有逾三十年豐富經驗。",
+                            Eng: "Everest Hong Kong and sister company Giga Hong Kong Limited were founded in Hong Kong in 2024 and 2004 respectively and are both regulated in Hong Kong with the Securities and Futures Commission (SFC). Giga has managed and advised on a series of funds in the past 15 years and is managed by a team with over 30 years of hedge fund and investment management experience.",
+                            简体: "Everest Hong Kong 及其关联公司 Giga Hong Kong Limited 分别于2024年和2004年在香港成立，且均受香港证券及期货事务监察委员会（证监会）监管。Giga在过去15年间管理并顾问过多支基金，其管理团队在对冲基金和投资管理领域拥有超过30年的丰富经验",
+                            繁體: "Everest Hong Kong 及其關聯公司 Giga Hong Kong Limited 分別於2024年和2004年在香港成立，且均受香港證券及期貨事務監察委員會（證監會）監管。Giga在過去15年間管理並顧問過多支基金，其管理團隊在對沖基金和投資管理領域擁有超過30年的豐富經驗。",
+                        }[currentLanguage]
+                    }
+                    <br />
+                    {
+                        {
+                            Eng: "While Everest provides securities dealing servces, Investment, Asset and Family office management services are provided by Giga Hong Kong. This arragement will mitigate any conflicts of interest that might arise during the dealing process ensuring integrity and maintaining client trust.",
+                            简体: "尽管 Everest 提供证券交易服务，但投资、资产及家族办公室管理服务均由 Giga Hong Kong 提供。此项安排将有效规避交易过程中可能产生的利益冲突，从而确保业务诚信并维护客户信任。",
+                            繁體: "儘管 Everest 提供證券交易服務，但投資、資產及家族辦公室管理服務均由 Giga Hong Kong 提供。此項安排將有效規避交易過程中可能產生的利益衝突，從而確保業務誠信並維護客戶信任。",
                         }[currentLanguage]
                     }
                 </div>
-
                 <div className="about__container--description2">
                     <div className="about__container--description2__container">
                         <div className="mission">
@@ -134,8 +140,8 @@ const About = ({ currentLanguage }) => {
                                 {
                                     {
                                         Eng: "A senior financial leader with a distinctive background combining a Master's in Applied Economics and a Master's in Engineering Technology. With nearly a decade of experience as a Responsible Officer and Executive Director at leading Hong Kong firms, Altair Capital, Datang Financial, Duodu Futures and presently Giga (Hong Kong) and Everest Securities.",
-                                        简体: "一位拥有卓越背景的资深金融领袖，兼具应用经济学硕士与工程技术硕士双学位。在香港领先企业——牵牛星资本、大唐金融、多多期货及现任极佳（香港）担任负责人员及执行董事近十年。",
-                                        繁體: "一位擁有卓越背景的資深金融領袖，兼具應用經濟學碩士與工程技術碩士雙學位。在香港領先企業——牽牛星資本、大唐金融、多多期貨及現任極佳（香港）擔任負責人員及執行董事近十年",
+                                        简体: "一位资深金融领袖，兼具独特的应用经济学硕士与工程技术硕士学术背景。在香港领先企业（包括奥而特资本、大唐金融、多多期货）担任负责人员及执行董事近十年，现任 Giga（香港）和Everest Securities。",
+                                        繁體: "一位資深金融領袖，兼具獨特的應用經濟學碩士與工程技術碩士學術背景。在香港領先企業（包括奧而特資本、大唐金融、多多期貨）擔任負責人員及執行董事近十年，現任 Giga（香港）和Everest Securities。",
                                     }[currentLanguage]
                                 }
                             </div>
@@ -145,9 +151,9 @@ const About = ({ currentLanguage }) => {
                             <div className="description">
                                 {
                                     {
-                                        Eng: "A seasoned financial executive and Responsible Officer with over seven years of senior leadership experience with roles at Golden Rich, China CIFCO, Sinofides, Central Wealth Securities Investments and presently Giga (Hong Kong) and Everest Securities",
-                                        简体: "一位经验丰富的金融高管和负责人员，拥有超过七年的高级领导经验，曾任职于金利通、中期证券、中诚信、中财证券投资等机构，现任Giga（香港）与Everest Securities要职。",
-                                        繁體: "一位經驗豐富的金融高管和負責人員，擁有超過七年的高級領導經驗，曾任職於金利通、中期證券、中誠信、中財證券投資等機構，現任Giga（香港）與Everest Securities要職。",
+                                        Eng: "A seasoned financial executive with a Masters of Business Administration from Wrexham University and BSc (HONS) Actuarial Science from The Hong Kong Polytechnic University. A Responsible Officer with over seven years of senior leadership experience with roles at Golden Rich, China CIFCO, Sinofides, Central Wealth Securities Investments and presently Giga (Hong Kong) and Everest Securities.",
+                                        简体: "一位经验丰富的金融高管，拥有雷克瑟姆大学的工商管理硕士学位及香港理工大学的应用统计科学（荣誉）学士学位。其为负责人员，拥有超过七年的高级领导经验，曾任职于高发、中国中投证券、汇骏、中财证券投资等机构，现任 Giga（香港）和 Everest Securities。",
+                                        繁體: "一位經驗豐富的金融高管，擁有雷克瑟姆大學的工商管理碩士學位及香港理工大學的應用統計科學（榮譽）學士學位。其為負責人員，擁有超過七年的高級領導經驗，曾任職於高發、中國中投證券、匯駿、中財證券投資等機構，現任 Giga（香港）和 Everest Securities。",
                                     }[currentLanguage]
                                 }
                             </div>

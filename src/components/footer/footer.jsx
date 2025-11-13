@@ -3,7 +3,7 @@ import "./footer.scss";
 const Footer = () => {
     return (
         <div className="footer">
-            Copyright © 2025 Giga Hong Kong | Powered by Giga Hong Kong
+            Copyright © 2025 Everest Hong Kong | Powered by Everest Hong Kong
         </div>
     );
 };
